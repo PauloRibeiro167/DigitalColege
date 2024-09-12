@@ -1,35 +1,53 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Receitas</title>
-    <link rel="stylesheet" href="app/stylesheet/style.css">
-    <script src="app/script/script.js"></script>
+    <title>Pagina do bolo</title>
+    <link rel="stylesheet" href="/aula 3/app/stylesheet/style.css">
+    <script src="..app/script/script.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Bem-vindo à Página de Receitas</h1>
-    </header>
+    <div class="navbar">
+        <ul>
+            <li><img class="return" src="/aula 3/app/imagem/left.png" alt="retornar" width="25px" height="25px"></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">Receitas</a></li>
+            <li><a href="#">Contatos</a></li>
+        </ul>
+    </div>
     <main>
-        <section>
-            <h2>Receitas Populares</h2>
-            <article>
-                <h3>Bolo de Chocolate</h3>
-                <p>Uma receita deliciosa de bolo de chocolate.</p>
+        <section id="popular-recipes">
+            <h2 class="receita-container">Receitas Populares</h2>
+            <article class="receita">
+                <div><h3 class="title">Bolo de Chocolat</h3></div>
+                <div class="receita-container">
+                    <a target="_blank" href="#"><img src="../app/imagem/cake.png" alt="Imagem de um bolo de chocolate" width="50px" height="50px"></a>
+                    <a class="receita" href="BoloChocolate.html">Uma receita deliciosa de bolo de limão.</a>
+                    <a target="_blank" href="#"><img src="../app/imagem/cake.png" alt="Imagem de um bolo de chocolate" width="50px" height="50px"></a>
+                </div>
             </article>
-            <article>
-                <h3>Torta de Limão</h3>
-                <p>Uma receita refrescante de torta de limão.</p>
+            <article class="receita">
+                <div><h3 class="title">Bolo de Limão</h3></div>
+                <div class="receita-container">
+                    <a target="_blank" href="#"><img src="../app/imagem/lemon.png" alt="Imagem de um bolo de limão" width="50px" height="50px"></a>
+                    <a class="receita" href="BoloLimão.html">Uma receita deliciosa de bolo de limão.</a>
+                    <a target="_blank" href="#"><img src="../app/imagem/lemon.png" alt="Imagem de um bolo de limão" width="50px" height="50px"></a>
+                </div>
             </article>
-            <article>
-                <h3>Pão de Queijo</h3>
-                <p>Uma receita tradicional de pão de queijo.</p>
+            <article class="receita">
+                <div><h3 class="title">Bolo de Banan</h3></div>
+                <div class="receita-container">
+                    <a target="_blank" href="#"><img src="../app/imagem/banana.png" alt="Imagem de um bolo de banana" width="50px" height="50px"></a>
+                    <a class="receita" href="BoloBanana.html">Uma receita deliciosa de bolo de banana.</a>
+                    <a target="_blank" href="#"><img src="../app/imagem/banana.png" alt="Imagem de um bolo de banana" width="50px" height="50px"></a>
+                </div>
             </article>
+
+        </section>
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 Página de Receitas. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Página de Receitas. Todos os direitos reservados. <a href="table.html">Tabela</a></p>
     </footer>
 </body>
 </html>
