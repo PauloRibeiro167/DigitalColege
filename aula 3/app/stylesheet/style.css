@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #25b8f7;
   margin: 0% 0% 10% 0%;
   padding: 0;
 }
@@ -10,6 +10,22 @@ header {
   padding: 20px;
   background-color: #ff6347;
   color: white;
+}
+
+.nav-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #555;
+  transform: scale(1.05);
 }
 
 main {
@@ -59,43 +75,43 @@ footer {
   background-color: #333;
   padding: 10px;
 }
+
 .navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
 }
+
 .navbar li {
   margin: 0 15px;
 }
+
 .navbar a {
   color: white;
   text-decoration: none;
   font-size: 18px;
-}
-.navbar a:hover {
-  text-decoration: underline;
-}
-
-.return{
-  display: flex;
-  margin-left: 0px;
-  justify-content: start;
-  margin-top: 7px;
-}
-
-.navbar {
   background-color: #333;
-  overflow: hidden;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.navbar a {
-  float: left;
+.navbar a:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+.return {
+  background-color: #333;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.return img {
   display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
 }
 
 .container{
