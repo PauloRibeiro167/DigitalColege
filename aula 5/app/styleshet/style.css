@@ -1,0 +1,39 @@
+a {
+    text-decoration: none;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin: 10px;
+  }
+  header {
+    background-color: rgb(198, 116, 116);
+    border: solid 3px blue;
+
+    background-color: rgb(198, 116, 116);
+  }
+  h1 {
+    text-align: center;
+  }
+  p {
+    text-align: justify;
+  }
+.artigosPrincipais{
+    background-color: blanchedalmond;
+    border: solid 3px blue;
+    border-radius: 10px;
+}
+body{
+    background-color: azure;
+}
+
+#modoPreparo{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+article h3{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+#imagemBolo{
+    border: 1px solid red;
+    width: 200px;
+}
