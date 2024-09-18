@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+.static {
+  position: static;
+  background-color: #f0f0f0;
+}
+
+.relative {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  background-color: #d0f0d0;
+}
+
+.absolute {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: #f0d0d0;
+}
+
+.fixed {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #d0d0f0;
+}
+
+.sticky {
+  position: -webkit-sticky; /* Para compatibilidade com Safari */
+  position: sticky;
+  top: 0;
+  background-color: #f0d0f0;
+}
+
+.flex-item {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.flex-item > div {
+  background-color: #8BC34A;
+  margin: 5px;
+  padding: 10px;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.order-3 {
+  order: 3;
+}
+
+.grow-1 {
+  flex-grow: 1;
+}
+
+.grow-2 {
+  flex-grow: 2;
+}
+
+.grow-3 {
+  flex-grow: 3;
+}
+
+.shrink-1 {
+  flex-shrink: 1;
+}
+
+.shrink-2 {
+  flex-shrink: 2;
+}
+
+.shrink-3 {
+  flex-shrink: 3;
+}
+
+.basis-1 {
+  flex-basis: 100px;
+}
+
+.basis-2 {
+  flex-basis: 200px;
+}
+
+.basis-3 {
+  flex-basis: 300px;
+}
+
+.align-self-start {
+  align-self: flex-start;
+}
+
+.align-self-end {
+  align-self: flex-end;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.align-self-stretch {
+  align-self: stretch;
+}
+
+.align-self-baseline {
+  align-self: baseline;
+}
