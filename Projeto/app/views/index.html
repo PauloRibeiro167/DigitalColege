@@ -3,28 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/Projeto/app/stylesheet/style.css">
-  <script defer src="/Projeto/app/javascript/script.js"></script>
-  <title>Oficina Car</title>
+  <link rel="stylesheet" href="/aula 4/app/stylesheet/style.css">
+  <script defer src="../javascript/script.js"></script>
+  <title>Aula 5</title>
 </head>
 <body>
-  <header>
-    <div class="menu">
-      <h1 class="logo">Oficina Car</h1>
-      <nav>
-        <ul>
-          <li>serviços</li>
-          <li>agendamentos</li>
-          <li>Contatos</li>
-        </ul>
-      </nav>
+<header>
+  <nav>
+    <ul>
+      <li><button class="nav-button">Home</button></li>
+      <li><button class="nav-button">Sobre</button></li>
+      <li><button class="nav-button">Contatos</button></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <div class="container">
+    <div class="carousel">
+      <div class="carousel-track">
+        <div class="carousel-item"><img src="../imgs/carro.jpg" alt="Carro"></div>
+      </div>
     </div>
-  </header>
-  <main>
-    <div class="main-content">
-      <h1>Serviços Automotivos</h1>
-      <h2>Faça seu orçamento</h2>
+  </div>
+  <section>
+    <h2>Propriedade Display</h2>
+    <p>A propriedade <code>display</code> define como um elemento HTML deve ser exibido. Aqui estão algumas das suas variações mais comuns:</p>
+    <ul>
+      <li><code>block</code>: O elemento é exibido como um bloco, ocupando toda a largura disponível.</li>
+      <li><code>inline</code>: O elemento é exibido na mesma linha que os elementos adjacentes, apenas ocupando o espaço necessário.</li>
+      <li><code>inline-block</code>: O elemento é exibido na mesma linha que os elementos adjacentes, mas permite definir largura e altura.</li>
+      <li><code>flex</code>: O elemento é exibido como um contêiner flexível, permitindo a disposição flexível dos seus filhos.</li>
+      <li><code>grid</code>: O elemento é exibido como um contêiner de grade, permitindo a disposição dos seus filhos em linhas e colunas.</li>
+    </ul>
+    <div class="example">
+      <div class="block">Block</div>
+      <div class="inline">Inline</div>
+      <div class="inline-block">Inline-Block</div>
+      <div class="flex">Flex</div>
+      <div class="grid">Grid</div>
     </div>
-  </main>
+  </section>
+</main>
+<footer>
+  <p>Desenvolvido por <a href="">Paulo</a></p>
+</footer>
 </body>
 </html>
