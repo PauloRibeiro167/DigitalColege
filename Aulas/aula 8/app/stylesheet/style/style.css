@@ -1,0 +1,53 @@
+body {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-top: 15px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
